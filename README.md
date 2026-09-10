@@ -13,6 +13,15 @@ Citation Network Explorer is a research-oriented dashboard for exploring relatio
 - Analyze node centrality with graph algorithms.
 - Inspect interactive graph visualizations.
 
+## Demo
+
+Watch a short demonstration of Citation Network Explorer in use:
+
+<video controls width="800">
+	<source src="assets/demo/citation-network-explorer-demo.mp4" type="video/mp4">
+	Your browser does not support the video tag. [Download the demo video](assets/demo/citation-network-explorer-demo.mp4).
+</video>
+
 ## Application Preview
 
 The application provides several views for exploring and analysing the citation graph. Each view combines an interactive graph with a control panel containing the inputs, graph summary, color legend, and details for the selected node. The screenshots are shown in Catalan because they were captured from the original application, but the functionality of each view is summarized below.
