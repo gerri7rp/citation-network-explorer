@@ -13,6 +13,46 @@ Citation Network Explorer is a research-oriented dashboard for exploring relatio
 - Analyze node centrality with graph algorithms.
 - Inspect interactive graph visualizations.
 
+## Application Preview
+
+The application provides several views for exploring and analysing the citation graph. Each view combines an interactive graph with a control panel containing the inputs, graph summary, color legend, and details for the selected node. The screenshots are shown in Catalan because they were captured from the original application, but the functionality of each view is summarized below.
+
+### Main Menu
+
+The home screen provides access to all graph exploration tools and acts as the main entry point to the application.
+
+![Citation Network Explorer main menu](assets/screenshots/main-menu.png)
+
+### Search
+
+Search for an article, author, or research field and inspect its direct relationships in the graph. Selecting a node reveals additional metadata and, where available, a link to the original document, making this view useful for moving from a graph result to a more detailed investigation.
+
+![Citation graph search](assets/screenshots/search-graph.png)
+
+### Shortest Path
+
+Find and visualize the shortest path between two articles or authors when a connection exists. This makes collaboration chains, citation links, and possible knowledge-transfer routes visible, helping users understand how two entities are connected within the academic network.
+
+![Shortest path analysis](assets/screenshots/shortest-path-analysis.png)
+
+### Research Field Evolution
+
+Explore how a research field connects to related articles over time. An interactive time-range slider filters the publication period, allowing users to compare how a field develops and which articles appear in different stages of its history.
+
+![Research field evolution](assets/screenshots/research-field-evolution.png)
+
+### Top Communities
+
+Detect and inspect groups of closely connected articles or authors using community detection algorithms. This can reveal thematic clusters, recurring collaboration groups, and bridges between institutions or scientific communities.
+
+![Top communities analysis](assets/screenshots/top-communities.png)
+
+### Node Centrality
+
+Calculate node importance using centrality algorithms such as PageRank. Node size reflects its centrality, while zooming, panning, and rearranging the graph help users inspect influential articles or authors and their surrounding connections in detail.
+
+![Node centrality analysis](assets/screenshots/node-centrality.png)
+
 ## Project Structure
 
 ```text
@@ -184,46 +224,6 @@ The `database/` directory contains the Cypher scripts used to prepare and popula
 | Top Communities | `/top-communities` |
 | Node Centrality | `/node-centrality` |
 | Research Field Evolution | `/field-evolution` |
-
-## Application Preview
-
-The application provides several views for exploring and analysing the citation graph:
-
-### Main Menu
-
-The home screen provides access to all graph exploration tools.
-
-![Citation Network Explorer main menu](assets/screenshots/main-menu.png)
-
-### Search
-
-Search for articles, authors, or research fields and inspect their connected nodes.
-
-![Citation graph search](assets/screenshots/search-graph.png)
-
-### Shortest Path
-
-Find and visualize the shortest path between two articles or authors.
-
-![Shortest path analysis](assets/screenshots/shortest-path-analysis.png)
-
-### Research Field Evolution
-
-Explore how a research field connects to related articles over time.
-
-![Research field evolution](assets/screenshots/research-field-evolution.png)
-
-### Top Communities
-
-Detect and inspect graph communities using community detection algorithms.
-
-![Top communities analysis](assets/screenshots/top-communities.png)
-
-### Node Centrality
-
-Calculate node importance using centrality algorithms such as PageRank.
-
-![Node centrality analysis](assets/screenshots/node-centrality.png)
 
 ## Scope
 
