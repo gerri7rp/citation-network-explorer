@@ -239,3 +239,7 @@ Gerard Ramos
 - Ley, M. [DBLP: Digital Bibliography & Library Project](https://dblp.uni-trier.de/). Accessed March 14, 2025.
 - Association for Computing Machinery. [ACM Digital Library](https://dl.acm.org/). Accessed March 14, 2025.
 - Tang, J., Zhang, J., Yao, L., Li, J., Zhang, L., and Su, Z. "ArnetMiner: Extraction and Mining of Academic Social Networks." In *Proceedings of the 14th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (SIGKDD'08)*, pp. 990-998, 2008.
+
+## Contact
+
+For questions or further information about the project, please contact Gerard Ramos at `g.ramos.pomar@gmail.com`.
