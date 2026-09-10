@@ -189,7 +189,7 @@ This project was developed as a final-year project focused on graph-based analys
 
 ## Author
 
-Gerard
+Gerard Ramos
 
 ## References
 
