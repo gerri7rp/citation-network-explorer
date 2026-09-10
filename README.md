@@ -139,6 +139,8 @@ Run the three scripts in `database/constraints/` first. Then choose one import w
 - `database/standard-import/` for a normal-sized dataset.
 - `database/bulk-import/` for a large dataset; these scripts use transactions optimized for larger imports.
 
+For the complete dataset, I recommend using `database/bulk-import/` for a more efficient loading process. Loading the full dataset with the standard scripts may use too many resources and cause Neo4j to crash. Use `database/standard-import/` when working with a smaller sample of the dataset.
+
 Run the node imports before the relationship imports. Do not run both workflows on the same database unless you have reset the database first.
 
 You can verify the imported graph in Neo4j Browser:
