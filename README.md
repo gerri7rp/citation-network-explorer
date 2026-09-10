@@ -15,12 +15,11 @@ Citation Network Explorer is a research-oriented dashboard for exploring relatio
 
 ## Demo
 
-Watch a short demonstration of Citation Network Explorer in use:
+Watch a short demonstration of Citation Network Explorer in use. Click the preview below to open the MP4 video:
 
-<video controls width="800">
-	<source src="assets/demo/citation-network-explorer-demo.mp4" type="video/mp4">
-	Your browser does not support the video tag. [Download the demo video](assets/demo/citation-network-explorer-demo.mp4).
-</video>
+[![Watch the Citation Network Explorer demo](assets/screenshots/main-menu.png)](assets/demo/citation-network-explorer-demo.mp4)
+
+[Open or download the demo video](assets/demo/citation-network-explorer-demo.mp4)
 
 ## Application Preview
 
