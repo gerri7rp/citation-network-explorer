@@ -1,0 +1,3 @@
+CREATE CONSTRAINT id_autor_unique IF NOT EXISTS
+FOR (a:Autor)
+REQUIRE a.id IS NODE KEY 

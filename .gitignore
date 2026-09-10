@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data and generated exports
+*.csv
+*.json
+*.jsonl
+*.log
+
+# Local environment files
+.venv/
+venv/
+env/
+.env
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/

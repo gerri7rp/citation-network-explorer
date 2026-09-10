@@ -1,0 +1,3 @@
+CREATE CONSTRAINT id_article_unique IF NOT EXISTS
+FOR (a:Article)
+REQUIRE a.id IS NODE KEY 
