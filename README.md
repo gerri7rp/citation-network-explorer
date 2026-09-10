@@ -58,7 +58,7 @@ Citation Network Explorer is a research-oriented dashboard for exploring relatio
 - Python 3.11 or later
 - Neo4j Desktop 2
 - A local Neo4j database with the Graph Data Science plugin
-- The original publication dataset, available from [this JSON dataset link](ADD_JSON_DATASET_URL_HERE)
+- The original publication dataset, available from the [AMiner Citation Network](https://www.aminer.cn/citation)
 
 ### Install dependencies
 
@@ -109,6 +109,14 @@ articles_fieldOfStudy.csv
 ```
 
 The original JSON dataset and generated CSV files are not intended to be committed to Git. Keep them in the local `data/` directory.
+
+## Dataset
+
+The project uses the latest version of the citation network dataset available from the [AMiner Citation Network](https://www.aminer.cn/citation). The dataset combines academic information collected from several sources, including DBLP, the ACM Digital Library, and Microsoft Academic Graph (MAG).
+
+The dataset contains more than 5.2 million articles and 36.6 million citation relationships. It is distributed as a JSON file of approximately 20 GB, and each article can contain up to 24 information fields. The data-processing notebook extracts the fields required by this project and prepares them for import into Neo4j.
+
+The dataset was developed in the context of the paper *ArnetMiner: Extraction and Mining of Academic Social Networks*, which describes the extraction and analysis of academic social networks.
 
 ### Copy CSV files to Neo4j
 
@@ -182,3 +190,10 @@ This project was developed as a final-year project focused on graph-based analys
 ## Author
 
 Gerard
+
+## References
+
+- AMiner. [AMiner Citation Network](https://www.aminer.cn/citation). Accessed March 16, 2025.
+- Ley, M. [DBLP: Digital Bibliography & Library Project](https://dblp.uni-trier.de/). Accessed March 14, 2025.
+- Association for Computing Machinery. [ACM Digital Library](https://dl.acm.org/). Accessed March 14, 2025.
+- Tang, J., Zhang, J., Yao, L., Li, J., Zhang, L., and Su, Z. "ArnetMiner: Extraction and Mining of Academic Social Networks." In *Proceedings of the 14th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (SIGKDD'08)*, pp. 990-998, 2008.
