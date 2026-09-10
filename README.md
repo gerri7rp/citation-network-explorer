@@ -185,6 +185,46 @@ The `database/` directory contains the Cypher scripts used to prepare and popula
 | Node Centrality | `/node-centrality` |
 | Research Field Evolution | `/field-evolution` |
 
+## Application Preview
+
+The application provides several views for exploring and analysing the citation graph:
+
+### Main Menu
+
+The home screen provides access to all graph exploration tools.
+
+![Citation Network Explorer main menu](assets/screenshots/main-menu.png)
+
+### Search
+
+Search for articles, authors, or research fields and inspect their connected nodes.
+
+![Citation graph search](assets/screenshots/search-graph.png)
+
+### Shortest Path
+
+Find and visualize the shortest path between two articles or authors.
+
+![Shortest path analysis](assets/screenshots/shortest-path-analysis.png)
+
+### Research Field Evolution
+
+Explore how a research field connects to related articles over time.
+
+![Research field evolution](assets/screenshots/research-field-evolution.png)
+
+### Top Communities
+
+Detect and inspect graph communities using community detection algorithms.
+
+![Top communities analysis](assets/screenshots/top-communities.png)
+
+### Node Centrality
+
+Calculate node importance using centrality algorithms such as PageRank.
+
+![Node centrality analysis](assets/screenshots/node-centrality.png)
+
 ## Scope
 
 This project was developed as a final-year project focused on graph-based analysis of academic citations. The repository contains the dashboard, data preparation notebook, and database import resources required to understand the project workflow.
